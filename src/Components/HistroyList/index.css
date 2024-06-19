@@ -1,0 +1,48 @@
+.list-item {
+  list-style-type: none;
+  padding: 10px;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.history-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.time {
+  color: #64748b;
+  font-size: 18px;
+}
+
+.logo {
+  max-height: 35px;
+  margin-left: 25px;
+}
+
+.title {
+  margin-left: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.link {
+  margin-left: 10px;
+  color: #475569;
+  text-decoration: none;
+}
+
+.button {
+  border: none;
+  height: 30px;
+  background-color: transparent;
+}
+
+.delete-icon {
+  height: 30px;
+}
